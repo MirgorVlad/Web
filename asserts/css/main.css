@@ -60,6 +60,11 @@ ul.menu li a{
 	color: #232730;
 }
 
+ul.menu li a:hover{
+	color: #A55C30;
+}
+
+
 #hero-section{
 	padding: 90px 0 60px ;
 	box-sizing: border-box;
