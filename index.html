@@ -6,6 +6,9 @@
 	<title>WoodMaster</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito+Sans:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="asserts/css/main.css">
+	<script src="asserts/js/main.js">
+		
+	</script>
 </head>
 <body>
 	<div class="fullpage">
@@ -23,7 +26,16 @@
 				</ul>
 			</nav>
 			<div class="mobile-menu-btn mobile">
-				<img src="asserts/img/burger.svg" alt="burger">
+				<img src="asserts/img/burger.svg" alt="burger" onclick="showMenu()">
+			</div> 
+			<div class="mobile-menu mobile" id="mobile-menu">
+				<ul>
+					<li><a href="#hero-section">Home</a></li>
+					<li><a href="#about-section">About</a></li>
+					<li><a href="#services-section">Services</a></li>
+					<li><a href="#products-section">Wares</a></li>
+					<li><a href="#contact-section">Contact us</a></li>
+				</ul>
 			</div>
 		</header>
 		<section id="hero-section" class="center_content">
